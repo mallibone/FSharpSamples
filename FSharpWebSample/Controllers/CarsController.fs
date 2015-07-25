@@ -15,4 +15,4 @@ type CarsController() =
     /// Gets all values.
     member x.Get() = values
 
-    member x.Get(id:int) = values |> List.filter(fun v -> v.Id = id)
+    member x.Get(id:int) = values |> List.find(fun v -> v.Id = id)
