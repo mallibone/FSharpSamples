@@ -2,7 +2,7 @@
 open Xunit
 open FSharpWebSample.Controllers
 
-module CarsControllerTest =
+type CarsControllerTest() =
 
     let carsController = new CarsController()
 

@@ -7,6 +7,12 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpWebSample", "FSharpWe
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpWebSample.Test", "FSharpWebSample.Test\FSharpWebSample.Test.fsproj", "{025A44B7-B919-4A6B-9F6F-BC97D8E4D709}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{D88C5F08-FF30-40E2-9AF2-400843FF822B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpWebSample.Client.Core", "Client\FSharpWebSample.Client.Core\FSharpWebSample.Client.Core.fsproj", "{C57972F0-5B2D-4AF9-89CE-BDE3B82A3BE6}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpWebSample.Client.Core.Test", "Client\FSharpWebSample.Client.Core.Test\FSharpWebSample.Client.Core.Test.fsproj", "{E09498C1-31D7-4281-9315-49AFF4C9774C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +27,20 @@ Global
 		{025A44B7-B919-4A6B-9F6F-BC97D8E4D709}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{025A44B7-B919-4A6B-9F6F-BC97D8E4D709}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{025A44B7-B919-4A6B-9F6F-BC97D8E4D709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C57972F0-5B2D-4AF9-89CE-BDE3B82A3BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C57972F0-5B2D-4AF9-89CE-BDE3B82A3BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C57972F0-5B2D-4AF9-89CE-BDE3B82A3BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C57972F0-5B2D-4AF9-89CE-BDE3B82A3BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09498C1-31D7-4281-9315-49AFF4C9774C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09498C1-31D7-4281-9315-49AFF4C9774C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09498C1-31D7-4281-9315-49AFF4C9774C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09498C1-31D7-4281-9315-49AFF4C9774C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C57972F0-5B2D-4AF9-89CE-BDE3B82A3BE6} = {D88C5F08-FF30-40E2-9AF2-400843FF822B}
+		{E09498C1-31D7-4281-9315-49AFF4C9774C} = {D88C5F08-FF30-40E2-9AF2-400843FF822B}
 	EndGlobalSection
 EndGlobal
